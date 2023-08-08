@@ -1,6 +1,9 @@
+// Solution to the startup task
+
 let oddArray = [];
 let evenArray = [];
 
+// The for loop to loop through the IDs
 for (let i = 1; i <= 100; i++) {
     if (i % 2 === 1) {
         oddArray.push(i)
