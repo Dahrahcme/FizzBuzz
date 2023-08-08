@@ -1,8 +1,11 @@
+// Solution to the FizzBuzz
+
 let Fizz = [];
 let Buzz = [];
 let FizzBuzz = [];
 let Other = [];
 
+// A loop to go through the numbers
 for (let i = 1; i <= 200; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         FizzBuzz.push(i)
